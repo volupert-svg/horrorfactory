@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>horrorfactory</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1a1a1a; --muted: #5f6368; --link: #1a56db; --line: #e5e7eb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121212; --fg: #ececec; --muted: #a0a4a8; --link: #8ab4f8; --line: #2c2c2c; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  p { margin: 0 0 16px; }
+  .muted { color: var(--muted); }
+  a { color: var(--link); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>horrorfactory</h1>
+  <p class="muted">개인용 YouTube Shorts 업로드 도구</p>
+
+  <p>horrorfactory는 운영자가 직접 만든 짧은 영상(YouTube Shorts)을 운영자 본인의 YouTube 채널에 <strong>비공개</strong>로 올리는 개인용 도구입니다. YouTube Data API의 업로드 권한(<code>youtube.upload</code>) 하나만 사용하며, 운영자 한 사람의 계정에서만 쓰입니다. 다른 사용자를 위한 서비스가 아니며 가입이나 로그인 기능을 제공하지 않습니다.</p>
+
+  <p>horrorfactory is a personal tool that uploads short videos made by its owner to the owner's own YouTube channel as private videos. It uses only the YouTube Data API upload scope (<code>youtube.upload</code>) and is used solely with the owner's account. It is not offered to other users.</p>
+
+  <hr>
+  <p><a href="privacy.html">개인정보처리방침 · Privacy Policy</a></p>
+  <p class="muted">이 도구는 YouTube API 서비스를 사용합니다. <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a> · <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></p>
+</main>
+</body>
+</html>
